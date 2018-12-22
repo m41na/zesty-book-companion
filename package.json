@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha ./tests/app-test.js",
+    "test:jest": "jest ./__tests__/sum-test.js",
+    "start": "jjs --language=es6 -ot -scripting -J-Djava.class.path=./lib/jetty-router-0.1.0-shaded.jar app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
