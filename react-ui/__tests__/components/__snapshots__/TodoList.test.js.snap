@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList behavior render() should render the component 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="header"
+    id="myDIV"
+  >
+    <h2>
+      My To Do List
+    </h2>
+    <form
+      id="tasks_form"
+      onSubmit={[Function]}
+    >
+      <input
+        name="task"
+        onChange={[Function]}
+        placeholder="Title..."
+        type="text"
+        value=""
+      />
+      <button
+        className="addBtn"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>
+  <ul
+    id="myUL"
+  >
+    <li
+      className=""
+      data-name="biking"
+      key="biking"
+    >
+      <span
+        onClick={[Function]}
+      >
+        biking
+      </span>
+      <span
+        className="close"
+        onClick={[Function]}
+      >
+        x
+      </span>
+    </li>
+    <li
+      className="checked"
+      data-name="hiking"
+      key="hiking"
+    >
+      <span
+        onClick={[Function]}
+      >
+        hiking
+      </span>
+      <span
+        className="close"
+        onClick={[Function]}
+      >
+        x
+      </span>
+    </li>
+  </ul>
+</div>
+`;
